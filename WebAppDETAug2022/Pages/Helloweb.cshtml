@@ -1,0 +1,38 @@
+﻿@page
+@model WebAppDETAug2022.Pages.HellowebModel
+@{
+}
+
+<h2>Welcome to my site!!</h2>
+<h3>@DateTime.Today.DayOfWeek</h3>
+
+Page Says @Model.Message
+
+<p>Discount  for today @Model.Discount</p>
+<h5>offer valid till @DateTime.Today.AddDays(32)</h5>
+
+<p>@@Username</p>
+@*<p>@Username</p>*@
+<a href="mailto:Support@contoso.com">Support@contoso.com</a>
+
+@{
+    string message = "foreignObject example with Scalable Vector Graphics (SVG)";
+}
+
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" rx="10" ry="10" width="100" height="100" stroke="red"
+          fill="none" />
+    <foreignObject x="10" y="10" width="80" height="80">
+        <p>@message</p>
+    </foreignObject>
+</svg>
+
+<p>@DateTime.Now</p>
+<p>@DateTime.IsLeapYear(2017)</p>
+@*
+<p>@await Dosomething("hello", "world")</p>*@
+
+
+
+
+
