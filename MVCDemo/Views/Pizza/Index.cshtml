@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+No of Pizzas available = @Model.Count
+<div class="table-responsive"></div>
+<p> Details </p>
+<table class="table"></table>
+@foreach (Pizza p in @Model)
+{
+    <tr><td>@p.Name </td></tr>
+
+}
+    </table>
+</div>

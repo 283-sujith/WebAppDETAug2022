@@ -1,0 +1,9 @@
+﻿@model List<Booking>
+<div>
+    @foreach(Booking b in @Model)
+    {
+        @b.Title
+        @b.EventDate
+        @b.Qty
+    }
+</div>
