@@ -1,4 +1,6 @@
-﻿namespace ContosoUniversity.Models
+﻿using MVCDemo.Models;
+
+namespace ContosoUniversity.Models
 {
     public enum Grade
     {

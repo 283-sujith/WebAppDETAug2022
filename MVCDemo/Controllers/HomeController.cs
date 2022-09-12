@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MVCDemo.Filter;
 using MVCDemo.Models;
 using System.Diagnostics;
 
@@ -12,17 +13,18 @@ namespace MVCDemo.Controllers
         {
             _logger = logger;
         }
-        public IActionResult Helo(string name,string loc)
+        public IActionResult Helo(string name, string loc)
         {
             ViewBag.UserName = name;
             ViewBag.Location = loc;
             return View();
         }
+        [MyLog]
         public IActionResult Index()
         {
             return View();
         }
-
+        [MyLog]
         public IActionResult Privacy()
         {
             return View();
