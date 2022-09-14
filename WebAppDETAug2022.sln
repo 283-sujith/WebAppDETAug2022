@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppDETAug2022", "WebAppD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{76612A0D-01C3-492C-B241-D45087913E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{B8FBE028-8040-471F-BB04-8CA822E2ABED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{B8FBE028-8040-471F-BB04-8CA822E2ABED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDemo", "APIDemo\APIDemo.csproj", "{D1D5F2F7-E81D-4B4E-890B-D202078E6EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAPIClient", "ConsoleAPIClient\ConsoleAPIClient.csproj", "{F9A5ADD0-046D-46C8-AB8B-B67A339F6353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{B8FBE028-8040-471F-BB04-8CA822E2ABED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8FBE028-8040-471F-BB04-8CA822E2ABED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8FBE028-8040-471F-BB04-8CA822E2ABED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D5F2F7-E81D-4B4E-890B-D202078E6EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D5F2F7-E81D-4B4E-890B-D202078E6EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D5F2F7-E81D-4B4E-890B-D202078E6EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D5F2F7-E81D-4B4E-890B-D202078E6EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A5ADD0-046D-46C8-AB8B-B67A339F6353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A5ADD0-046D-46C8-AB8B-B67A339F6353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A5ADD0-046D-46C8-AB8B-B67A339F6353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A5ADD0-046D-46C8-AB8B-B67A339F6353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
